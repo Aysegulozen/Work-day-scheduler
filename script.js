@@ -1,10 +1,10 @@
 $(document).ready(function () {
     // Display current date and time
-    $('#currentDay').text(moment().format("dddd, MMMM Do "));
+    $('#currentDay').text(moment().format("dddd, MMMM Do YYYY, h:mm:ss a "));
     
     // Generate time blocks and insert saved local storage data
     function generateTimeBlocks() {
-        var hours = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23];
+        var hours = [9, 10, 11, 12, 13, 14, 15, 16, 17];
     
         $.each(hours, function (index, hour) {
             // console.log(hour);
@@ -35,7 +35,7 @@ $(document).ready(function () {
 
             $timeBlock.removeClass("past present future");
 
-            if (currentTime.isBetween(currentHour, currentHour.clone().add(1, 'hour'))) {
+            if (currentTime.isSame(currentHour, 'hour')) {
                 $timeBlock.addClass("present");
             } else if (currentTime.isAfter(currentHour)) {
                 $timeBlock.addClass("past");
