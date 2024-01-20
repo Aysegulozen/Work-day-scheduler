@@ -4,10 +4,10 @@
 Welcome to the Work Day Scheduler! This simple calendar application allows users to save events for each hour of the day. The app runs in the browser and features dynamically updated HTML and CSS powered by jQuery, with date and time manipulation using the Day.js library.
 
 ### Deployed Page
-Visit [Work Day Scheduler]()
+[Work Day Scheduler](https://aysegulozen.github.io/Work-day-scheduler/)
 
 ### GitHub Repo
-[Work Day Scheduler GitHub Repo]()
+[Work Day Scheduler GitHub Repo](https://github.com/Aysegulozen/Work-day-scheduler)
 
 ## Installation
 To explore this project, open it in your preferred browser. Make sure to have a modern browser like Chrome for the best experience. You can view the deployed page by visiting the provided URL.
@@ -31,9 +31,15 @@ Share any insights gained during the development of this project. Outline any fu
 ## Credits
 - [Day.js Documentation](https://day.js.org/)
 - [jQuery Documentation](https://api.jquery.com/)
+- [javascript-date-time-dayjs](https://www.freecodecamp.org/news/javascript-date-time-dayjs/)
+- [custom-calendar-with-react-and-dayjs](https://medium.com/@kapaak/custom-calendar-with-react-and-dayjs-dcdbba89e577)
 
 ## License
 Specify the license information for your project.
 
+## Screen Record
+![A user clicks on slots on the color-coded calendar and edits the events.](./image/Screen%20Recording%20project.gif)
+
 ## Screenshots
-- [Screenshot 1]
+- ![Screenshot 1](./image/Screenshot1%20hour-1pm.png)
+- ![Screenshot 2](./image/Screenshot2%20hour-2pm.png)
